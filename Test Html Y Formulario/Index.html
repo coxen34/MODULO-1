@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+</head>
+<body style="border:grey solid 2px;width:99%;">
+    <br>
+   <header style="margin-left:5px;">
+       <a href="#">Inicio</a>
+       <a href="#">Tienda</a>
+       <a href="#">Contacto</a>
+   </header> 
+   <main style="margin:auto;">
+       <section>
+           <strong><u><h1 style="margin-left:45%;font-family:'Courier New', Courier, monospace;font-weight:bold;">Siglo XXII</h1></u></strong>
+           <h4 style="color:red;margin-left:43%;font-weight:bold;;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">Últimas novedades ya a la venta!</h4>
+        </section>
+        <br><br>
+        <section>
+            <div style="margin-left:5px;margin-right:5px;">
+                <img style="width:30%"src="Imagenes/radioAntigua.jpg" alt="Radio Antigua">
+                <img style="width:30%;height:400px;"src="Imagenes/maquinaEscribir.png" alt="Máquina de escribir antigua">
+                <img style="width:30%" src="Imagenes/camaraAntigua.jpg" alt="Cámara de Cine antigua">
+            </div>
+            <br>
+            <p style="background-color:black;color:white;margin-left:5px;margin-right:5px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus omnis ea debitis magni officiis qui veritatis assumenda, aliquid velit sint, rerum rem earum minima corrupti repellat enim nemo nam quo.
+            Nobis voluptates perferendis, delectus culpa aperiam sapiente officiis natus libero aspernatur reprehenderit architecto alias qui suscipit ratione neque consequatur ut atque incidunt omnis odio minima nesciunt odit! Incidunt, similique dolorum.
+            Voluptatibus, tempora dolorem iusto aut placeat suscipit tenetur vero? Ipsa ut expedita dicta officia, quas autem aliquam eos minima, odio hic voluptatibus consequatur rem animi, ad amet quis aperiam adipisci.
+           </p>
+        </section>
+        <section style="margin-left:5px;margin-right:5px;">
+           <form method="get" action="login.html" class="formulario">
+        <fieldset>
+            <legend><h1>Si deseas más información, envíanos tus datos !</h1></legend> 
+            <div>
+                <label for="nombre">Nombre *</label>
+                <input style="width:14%"type="text"id="nombre"placeholder="Introduce tu nombre"name="nombre"minlength="4"maxlength="15"required>
+            </div>
+            <br>
+            <div>
+               <label for="edad">Edad *</label>
+               <input style="width:14%"type="number"id="edad"placeholder="Introduce tu edad"name="edad"min="25"max="90"required>
+            </div>
+            <br>
+            <div>
+               <label for="mail">Correo *</label>
+               <input style="width:14%"type="email"id="mail"placeholder="Introduce tu mail"name="mail"min="15"max="90"required>
+            </div>
+            <br>
+            <div>
+                <label for="comentario">Comentario *</label>
+                <br>
+                <textarea style="width:18%"id="comentario"name="comentario"cols="60"rows="5"maxlength="100"required>
+                </textarea>
+             </div>
+             <br>
+             <div style="display:inline;">
+               <input type="checkbox"id="acepto"name="acepto"value="acepto"required>
+               <label for="acepto">No he leído nada pero acepto igual</label>
+             </div> 
+             <br><br>
+             <div>
+                 <input type="submit"id="enviar"value="venga!">
+             </div> 
+        </section>
+        <hr style="margin-left:5px;margin-right:5px;">
+        <small style="margin-left:5px;">Dudas? Envíame un email <a href="mailto:rmartinga@tauformar.com">aquí</a></small>
+        <br><br>
+   </main>
+</body>
+</html>
